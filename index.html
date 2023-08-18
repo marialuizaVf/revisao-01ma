@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revisão html e css</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#listas">Listas</a>
+            <a href="#tabelas">Tabelas</a>
+            <a href="#formularios">Formulários</a>
+        </nav>
+    </header>
+    <main>
+        <section id="listas">
+            <h2>Listas</h2>
+            <ol>
+                <li>nike</li>
+                <li>adidas</li>
+                <li>vans</li>
+                <li>puma</li>
+                <li>tesla</li>
+            </ol>
+            <ul>
+                <li>tomb raider</li>
+                <li>euro truck</li>
+                <li>free fire</li>
+                <li>pubg</li>
+                <li>cod</li>
+            </ul>
+        </section>
+        <section id="tabelas">
+            <h2>Tabelas</h2>
+                <table>
+                    <thead>
+                    <tr>
+                        <th>Filme</th>
+                        <th>Dias</th>
+                        <th>Horario</th>
+                    </tr>
+                    <tr>
+                        <td>Ursinho Pooh</td>
+                        <td>Seg/ter/qua</td>
+                        <td>14:15/14:30/16:40</td>
+                    </tr>
+                    <tr>
+                        <td>Barbie</td>
+                        <td>Seg/ter/qua/sex</td>
+                        <td>16:10/18:50/21:30</td>
+                    </tr>
+                    <tr>
+                        <td>O Convento</td>
+                        <td>Sex/sab/dom</td>
+                        <td>22:45</td>
+                    </tr>
+                    <tr>
+                        <td>Elemento</td>
+                        <td>Seg/ter/qua/sex</td>
+                        <td>17:50/20:15</td>
+                    </tr>
+                    <tr>
+                        <td>Os Aventureitas</td>
+                        <td>Sab/dom</td>                                                        
+                        <td>13:15/15:20</td>
+                    </tr>
+                    <tr>
+                        <td>A Era de Ouro</td>
+                        <td>Seg/teg/qua/sex</td>
+                        <td>13:50</td>
+                    </tr>
+                </thead>
+                </table>
+        
+
+        </section>
+        <section id="formularios">
+            <h2>Formulário</h2>
+            <form action="">
+                <fieldset>
+                    <legend>Formulário de Inscrição</legend>
+                    <div>
+                        <label for="nome">Nome Completo:</label>
+                        <input id="nome" type="text">
+                    </div>
+                    <div>
+                        <label for="data">Data de Nascimento</label>
+                        <input id="data" type="date">
+                    </div>
+                    <div>
+                        <label for="cpf">CPF:</label>
+                        <input if="cpf" type="number">
+                    </div>
+                    <div>
+                        <label for="estado">Estado:</label>
+                        <select name="Estado" id="estado">
+                            <option value="ac">Ac</option>
+                            <option value="al">AL</option>
+                            <option value="ap">AP</option>
+                            <option value="am">AM</option>
+                            <option value="ba">BA</option>
+                            <option value="ce">CE</option>
+                            <option value="df">DF</option>
+                            <option value="es">ES</option>
+                            <option value="go">GO</option>
+                            <option value="ma">MA</option>
+                            <option value="mt">MT</option>
+                            <option value="ms">MS</option>
+                            <option value="mg">MG</option>
+                            <option value="pa">PA</option>
+                            <option value="pb">PB</option>
+                            <option value="pr">PR</option>
+                            <option value="pe">PE</option>
+                            <option value="pi">PI</option>
+                            <option value="rj">RJ</option>
+                            <option value="rn">RN</option>
+                            <option value="rs">RS</option>
+                            <option value="ro">RO</option>
+                            <option value="rr">RR</option>
+                            <option value="sc">SC</option>
+                            <option value="sp">SP</option> 
+                            <option value="se">SE</option>
+                            <option value="to">TO</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="telefone">Telefone:</label>
+                        <input id="telefone" type="number">
+                    </div>
+                    <button>Registrar</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
